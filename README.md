@@ -23,4 +23,4 @@ df = data.frame(x = rnorm(100),
 pairs.lin(data = df, hist.col = "skyblue", cex.text = 1.2) 
 ```
 
-![](https://github.com/arthur-rocha/pairs-lin/blob/master/ex_lin_pairs.png)
+![](https://github.com/arthur-rocha/pairs-lin/blob/master/example_pairs_lin.png)
