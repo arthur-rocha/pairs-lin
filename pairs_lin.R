@@ -17,9 +17,13 @@ panel.lin <- function(x, y)
   usr <- par("usr"); on.exit(par(usr))
   par(usr = c(0, 1, 0, 1))
   r <- CCC(x, y)$rho.c[1]
+  ic = CCC(x, y)$rho.c[2:3]
+  ic = round(ic,2)
+  ic =paste0("(",ic[1],";",ic[2], ")")
   r = round(r,digits = 3)
   
   text(0.5, 0.5, r, cex = cex.text)
+  text(.5, 0.28, ic , cex = cex.text/1.5)
 }
 par(pch = 19)
 g = pairs(data, lower.panel=points, upper.panel=panel.lin,
