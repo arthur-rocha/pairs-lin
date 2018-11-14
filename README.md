@@ -13,6 +13,7 @@ pairs.lin(data, hist.col = "grey", cex.text = 2)
 
 ## Example
 set.seed(444)
+
 df = data.frame(x = rnorm(100),
                 y = x*2,
                 z = x+0.01)
