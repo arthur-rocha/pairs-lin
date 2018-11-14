@@ -12,12 +12,15 @@ pairs.lin(data, hist.col = "grey", cex.text = 2)
 `DescTools`
 
 ## Example
+
+```
 set.seed(444)
 
 df = data.frame(x = rnorm(100),
                 y = x*2,
                 z = x+0.01)
-                    
+            
 pairs.lin(data = df, hist.col = "skyblue", cex.text = 1.2) 
+```
 
 ![](https://github.com/arthur-rocha/pairs-lin/blob/master/ex_lin_pairs.png)
