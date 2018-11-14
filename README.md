@@ -18,3 +18,5 @@ df = data.frame(x = rnorm(100),
                 z = x+0.01)
                     
 pairs.lin(data = df, hist.col = "skyblue", cex.text = 1.2) 
+
+![](https://github.com/arthur-rocha/pairs-lin/blob/master/ex_lin_pairs.png)
